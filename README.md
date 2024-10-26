@@ -9,7 +9,7 @@ This repository implements a Deep Reinforcement Learning (RL) approach to the Ca
 - [Architecture](#architecture)
 - [Training](#training)
 - [Features](#features)
-- [Future Work](#future_work)
+- [Futurework](#futurework)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -58,7 +58,7 @@ The trained model is saved periodically to allow for future evaluation and fine-
 - Customizable Hyperparameters: List key hyperparameters that users can modify for training, such as learning rate, exploration rate, and discount factor.
 - Evaluation Metrics: Describe the metrics used to evaluate the agent's performance (e.g., average reward per episode).
 
-## Future Work
+## FutureWork
 
 Outline potential future enhancements or features you plan to implement, such as:
 
