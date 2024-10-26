@@ -73,7 +73,7 @@ NEAT (NeuroEvolution of Augmenting Topologies)
 After installation, you can run the training script:
 
 ```bash
-python train.py
+python newcar.py
 ```
 
 You can also modify parameters in config.py to adjust the training settings, such as the number of episodes, learning rate, and more.
