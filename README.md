@@ -22,6 +22,28 @@ git clone https://github.com/Spooke02/DQN-Car-Racing.git
 cd DQN-Car-Racing
 ```
 
+Create a Virtual Environment and activate it:
+
+- In the project directory, open a terminal and run:
+
+  ```bash
+  python -m venv myvenv
+  ```
+
+- Activate the Virtual Environment:
+
+  - On Windows:
+    
+    ```bash
+    venv_name\Scripts\activate
+    ```
+    
+  - On macOS/Linux:
+    
+    ```bash
+    source venv_name/bin/activate
+    ```
+
 Among the multiple dependencies used, NEAT is to be installed manually.
 
 NEAT (NeuroEvolution of Augmenting Topologies)
