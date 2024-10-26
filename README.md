@@ -18,10 +18,33 @@ This repository implements a Deep Reinforcement Learning (RL) approach to the Ca
 To set up the environment, clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/CodeAndAction/DDQN-Car-Racing.git
-cd DDQN-Car-Racing
-pip install -r requirements.txt
+git clone https://github.com/Spooke02/DQN-Car-Racing.git
+cd DQN-Car-Racing
 ```
+
+Among the multiple dependencies used, NEAT is to be installed manually.
+
+NEAT (NeuroEvolution of Augmenting Topologies)
+
+- Overview: NEAT is a Python library for neuroevolution.
+  
+- Installation:
+  
+  - Using pip (Recommended):
+    
+    Open your terminal/command prompt and run:
+    
+    ```bash
+    pip install neat-python
+    ```
+    
+  - Using conda (Alternative):
+    
+    If you use Anaconda or Miniconda, you can also install via Conda (though it might not always have the latest version):
+    
+    ```bash
+    conda install -c conda-forge neat-python
+    ```
 
 ## Usage
 
