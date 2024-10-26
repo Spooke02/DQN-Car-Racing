@@ -78,6 +78,23 @@ python train.py
 
 You can also modify parameters in config.py to adjust the training settings, such as the number of episodes, learning rate, and more.
 
+To change the map, go to game_map in run_simulation function:
+
+```bash
+def run_simulation(genomes, config):
+    ...
+    # Clock Settings
+    # Font Settings & Loading Map
+    clock = pygame.time.Clock()
+    generation_font = pygame.font.SysFont("Arial", 30)
+    alive_font = pygame.font.SysFont("Arial", 20)
+    game_map = pygame.image.load('map5.png').convert() # Change the Map
+
+    global current_generation
+    current_generation += 1
+    ...
+```
+
 ## Architecture
 
 The project follows the DDQN algorithm, which uses two neural networks to stabilize training by reducing overestimation bias. The architecture includes:
